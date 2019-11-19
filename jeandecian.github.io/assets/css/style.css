@@ -558,6 +558,10 @@ table {
   margin-bottom: 20px;
   text-align: center; }
 
+.top-row .col {
+  background-color: bisque;
+  border-radius: 10px 10px 0px 0px; }
+
 .top-row h3 {
   margin: 15px; }
 
