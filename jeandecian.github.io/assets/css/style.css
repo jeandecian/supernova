@@ -546,6 +546,10 @@ table {
 .page-link {
   border: none; }
 
+.page-link:hover {
+  background-color: #fdfdfd;
+  border-bottom: 2px solid black; }
+
 *,
 *::before,
 *::after {
