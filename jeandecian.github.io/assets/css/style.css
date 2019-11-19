@@ -550,3 +550,29 @@ table {
 *::before,
 *::after {
   box-sizing: unset; }
+
+.container-fluid {
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.top-row h3 {
+  margin: 15px; }
+
+.middle-row .col {
+  border: 0px;
+  border-color: darkgray;
+  border-style: solid;
+  border-top-width: 0.5px; }
+
+.middle-row p {
+  margin: 5px; }
+
+.bottom-row .col {
+  border-top: 0.5px solid darkgrey;
+  padding: 20px; }
+
+a:hover {
+  text-decoration: none; }
