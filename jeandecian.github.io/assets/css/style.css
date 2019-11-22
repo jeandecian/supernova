@@ -543,6 +543,9 @@ table {
   .highlight .il {
     color: #099; }
 
+.site-nav {
+  z-index: 1; }
+
 .page-link {
   border: none; }
 
@@ -571,19 +574,19 @@ table {
 .top-row h3 {
   margin: 15px; }
 
-.middle-row a {
-  border-radius: 0px;
+.abtn a {
   color: black; }
 
-.middle-row a:hover {
+.noradius {
+  border-radius: 0px; }
+
+.abtn a:hover {
   background-color: #424242;
   color: #fdfdfd; }
 
 .middle-row .col {
   border: 0px;
-  border-color: darkgray;
-  border-style: solid;
-  border-top-width: 0.5px; }
+  border-top: 0.5px solid darkgrey; }
 
 .middle-row p {
   margin: 5px; }
@@ -595,7 +598,5 @@ table {
 a:hover {
   text-decoration: none; }
 
-.row-card {
-  border: 1px solid darkgray;
-  border-radius: 10px;
-  margin: 10px; }
+.modal-dialog {
+  max-width: 888px; }
