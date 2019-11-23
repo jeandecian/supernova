@@ -543,6 +543,11 @@ table {
   .highlight .il {
     color: #099; }
 
+.profile {
+  border-radius: 50%;
+  float: left;
+  padding: 5px; }
+
 .site-nav {
   z-index: 1; }
 
