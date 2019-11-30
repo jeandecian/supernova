@@ -543,6 +543,9 @@ table {
   .highlight .il {
     color: #099; }
 
+.wrapper {
+  max-width: 85%; }
+
 .profile {
   border-radius: 50%;
   float: left;
@@ -552,7 +555,9 @@ table {
   z-index: 1; }
 
 .page-link {
-  border: none; }
+  border: none;
+  display: inline-block;
+  height: 39px; }
 
 .page-link:hover {
   background-color: #fdfdfd;
