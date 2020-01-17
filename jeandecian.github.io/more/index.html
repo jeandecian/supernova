@@ -144,7 +144,7 @@
         <p>Étudiant en génie informatique.
 </p>
         <ul class="contact-list">
-          <li class="p-name">Jean Decian</li><li>Personnel : <a class="u-email" href="mailto:jeandecian@hotmail.fr">jeandecian@hotmail.fr</a></li><li>Université : <a class="u-email" href="mailto:jean.decian@polymtl.ca">jean.decian@polymtl.ca</a></li><li>Professionel : <a class="u-email" href="mailto:jean.decian@crim.ca">jean.decian@crim.ca</a></li><li>
+          <li class="p-name">Jean Decian</li><li>Personnel : <a class="u-email" href="mailto:jeandecian{at}hotmail.fr.earth">jeandecian{at}hotmail.fr</a></li><li>Université : <a class="u-email" href="mailto:jean.decian{at}polymtl.ca.earth">jean.decian{at}polymtl.ca</a></li><li>Professionel : <a class="u-email" href="mailto:jean.decian{at}crim.ca.earth">jean.decian{at}crim.ca</a></li><li>
         </ul>
       </div>
 
@@ -170,5 +170,10 @@
 </body>
 
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
+  <script>
+    $("a.u-email").on("click", function(){
+      var href = $(this).attr("href");
+      $(this).attr("href", href.replace("{at}", "@").replace(".earth", ""));
+    });
+  </script>
 </html>
